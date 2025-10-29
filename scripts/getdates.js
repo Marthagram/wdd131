@@ -1,4 +1,4 @@
-const year = document.querySelector("#year");
+const year = document.querySelector("#currentyear");
 
 const today = new Date();
 

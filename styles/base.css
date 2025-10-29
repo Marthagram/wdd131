@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+header, footer{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -93,7 +93,6 @@ header nav a:hover{
 .one p{
     margin-top: 20px;
     font-family: var(--body-font);
-    text-wrap: 20px;
     margin-right: 120px;
     display: flex;
     line-height: 30px;

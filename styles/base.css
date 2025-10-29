@@ -1,0 +1,127 @@
+:root{
+    --primary-color:#d5dde5;
+    --secondary-color:#44bba1;
+    --heading-font: "Pacifico", cursive;
+    --body-font: "Amaranth", "Times new roman";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+
+
+}
+#course-title{
+    display: block;
+    padding-top: 14px;
+    text-align: center;
+    font-family: var(--heading-font);
+    height: 50px;
+    background-color: var(--primary-color);
+    font-size: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--secondary-color);
+    color: black;
+    text-decoration: none;
+    padding: 10px 0;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    
+}
+header nav a:hover{
+    color: rgb(95, 143, 0);
+    text-decoration: underline;
+}
+.card h2{
+    background-color: var(--secondary-color);
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+.one{
+    grid-column: 1/1;
+    border: 1px solid rgb(207, 200, 200);
+    margin-right: 6px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.one img{
+    float: right;
+    width: 150px;
+    height: auto;
+    margin-top: 7px;
+    margin-bottom: 6px;
+   
+    
+}
+.one h3{
+    clear: both;
+    border-bottom: 1px solid rgb(107, 85, 85);
+    /* I use this format below to reduce my border span across a document */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 200px;
+}
+.one img:nth-of-type(2){
+    float: left;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+.one p{
+    margin-top: 20px;
+    font-family: var(--body-font);
+    text-wrap: 20px;
+    margin-right: 120px;
+    display: flex;
+    line-height: 30px;
+    
+
+}
+.two{
+    
+    grid-column: 2/2;
+    border: 1px solid rgb(207, 200, 200);
+    margin-left: 6px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.two ul {
+    margin-top: 25px;
+    display: block;
+    padding-left: 20px;
+    line-height: 40px;
+}
+
+footer {
+    height: 70px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    font-family: var(--heading-font);
+}

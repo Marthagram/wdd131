@@ -1,0 +1,32 @@
+:root{
+    --primary-color:#b3c1c5;
+    --secondary-color:#44bba1;
+    --heading-font:Amaranth;
+    --body-font: "Roboto";;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer{
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid rgb(216, 207, 207);
+    padding: 2em;
+    background-color: rgb(174, 174, 192);
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+section{
+    padding: 2em;
+    background-color: rgb(219, 212, 196);
+}

@@ -11,33 +11,20 @@
     box-sizing: border-box;
 }
 header{
-    max-width: 70em;
+    max-width: 640px;
     margin: 0 auto;
+    padding: .8em;
     
 }
 
-/* @media screen and  (min-width: 40em){
-
-    
-
-    #course-title{
-    padding-top:.2em;
-    padding-left: 1em;
-    font-family: var(--heading-font);
-    font-size: 1em;
-    height: auto;
-    background-color: var(--primary-color);
-    
-    }
-} */
 
 main{
 
-    max-width: 66em;
+    max-width: 420px;
     margin: 0 auto;
     margin-top: 2em;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
 
 
 
@@ -47,8 +34,8 @@ main{
     padding-top:.4em ;
     padding-left: 1em;
     font-family: var(--heading-font);
-    font-size: 2em;
-    height: 70px;
+    font-size: 1.8em;
+    height: 150px;
     background-color: var(--primary-color);
     
 }
@@ -78,18 +65,16 @@ body{
 }
 main h1{
     position: absolute;
-    top: .4em;
-    left: 24.59em;
+    top: 2.5em;
+    left: 8em;
     font-family: var(--heading-font);
-    color: rgb(12 31 181) ;
+    color: rgb(102 0 0) ;
 }
 
 
 
 .one{
-    grid-column: 1/1;
     border: 1px solid rgb(207, 200, 200);
-    margin-right: .6em;
     border-radius: 1em;
     
 }
@@ -113,7 +98,6 @@ main h1{
 }
 .one figure{
     float: left;
-    margin-right: 2em;
     margin-top: .7em;
     margin-left: 2em;
     
@@ -121,7 +105,6 @@ main h1{
 .one p{
     margin-top: 2em;
     font-family: var(--body-font);
-    margin-right: .2em;
     line-height: 30px;
     padding: 3em;
     
@@ -129,18 +112,15 @@ main h1{
 
 }
 .two{
-    
-    grid-column: 2/2;
+    margin-top: 2em;
     border: 1px solid rgb(207, 200, 200);
-    margin-left: 3em;
     border-radius: 20px;
-    
 }
 
 .two ul {
-    margin-top: 6em;
+    margin-top: 3em;
     display: block;
-    padding-left: 2.2em;
+    padding: 0 0 2.2em 2.2em;
     line-height: 40px;
 }
 .two a:hover{
@@ -157,7 +137,7 @@ main h1{
 }
 
 footer {
-    max-width: 70em;
+    max-width:640px; 
     margin: 0 auto;  
     height: 70px;
     text-align: center;
@@ -167,5 +147,5 @@ footer {
     font-family: var(--heading-font);
 }
 #lastModified{
-   color: rgb(12 31 181);
+   color: rgb(102 0 0);
 }

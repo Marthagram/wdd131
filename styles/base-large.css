@@ -1,0 +1,48 @@
+@media screen and  (min-width: 650px){
+
+    #course-title{
+        
+    padding-top:.5em;
+    padding-left: 2em;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    height: 60px;
+    background-color: var(--primary-color);
+    
+    }
+
+    header, main, footer{
+        max-width: 1200px;
+        margin: 2rem  auto;
+        
+    }
+
+    main{
+
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 2em;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 2fr 1fr;
+    }
+
+    main h1{
+    position: absolute;
+    top: .9em;
+    left: 23em;
+    }
+
+    .two{
+    margin-top: 0;
+    }
+
+    .two ul {
+    margin-top: 8em;
+    padding: 0 0 2.2em 2.2em;
+    line-height: 40px;
+    }
+
+    
+    
+}

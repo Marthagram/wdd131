@@ -1,8 +1,8 @@
 :root{
     --primary-color:#b3c1c5;
     --secondary-color:#44bba1;
-    --heading-font: "Pacifico", cursive;
-    --body-font: "Amaranth", "Times new roman";
+    --heading-font: "Roboto", "Josefin Sans";
+    --body-font: "Amaranth", sans-serif;
 }
 
 *{

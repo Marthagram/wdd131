@@ -87,9 +87,7 @@ main{
     font-size: 1.5em;
     font-weight: 700;
     text-decoration: none;
-    color: var(--primary-color);
-    position: absolute;
-    top: 1em;
+    color: var(--primary-color);;
     margin-left: 17.5em;
     
     

@@ -85,6 +85,7 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    
 }
 
 #menu{
@@ -104,7 +105,7 @@ header{
 #menu.show::before{
     display: block;
     content: "✖";
-    margin-left: 16.9em;
+    
 }
 
 .show li{
@@ -121,7 +122,9 @@ li{
     display: none;
 }
 #menu::before{
+    display: block;
     content: "☰";
+    
 
 }
 

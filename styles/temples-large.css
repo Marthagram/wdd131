@@ -1,0 +1,27 @@
+@media screen and (min-width: 641px) {
+        header, footer{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: .8em .8em .8em .8em;
+        background-color: var(--secondary-color);
+    }
+    main{
+        
+        max-width: 1100px;
+        margin-top: 2em;
+    }
+        
+    .image-class{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 1em;
+        padding: 0 1em;
+    }
+    footer{
+        margin-top: 2em;
+        padding: 1em;
+        text-align: center;
+        font-family: var(--body-font);
+        background-color: var(--secondary-color);
+    }
+}

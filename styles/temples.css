@@ -27,7 +27,7 @@ main{
     padding: 0 1em;
 }
 
-figure{
+.image-class figure{
     text-align: center;
     font-family: var(--body-font);
     font-size: 1.2em;
@@ -40,8 +40,7 @@ figure{
 
 
 h1{
-    width: fit-content;
-    margin: 0 auto;
+
     padding: .5em;
     font-family: var(--heading-font);
     font-size: 1.9em;

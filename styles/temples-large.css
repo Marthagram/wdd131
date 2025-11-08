@@ -5,12 +5,18 @@
         padding: .8em .8em .8em .8em;
         background-color: var(--secondary-color);
     }
-    main{
+     main{
         
         max-width: 1150px;
-        margin: 2rem 2em auto;
+        margin: 0 auto;
+        margin-top: 2em;
+        display: grid;
+        gap: 1em;
+        padding: 0 1em;
       
-    }
+    } 
+    
+    
 
     header{
         display: flex;
@@ -21,6 +27,12 @@
 
     }
         
+    .image-class figure{
+        max-width: 1150px;
+        margin: 0 auto;
+        gap: 1em;
+    }
+    
     .image-class{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;

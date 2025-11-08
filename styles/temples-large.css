@@ -1,23 +1,36 @@
 @media screen and (min-width: 641px) {
-        header, footer{
+    header, footer{
         max-width: 1200px;
         margin: 0 auto;
         padding: .8em .8em .8em .8em;
         background-color: var(--secondary-color);
     }
-     main{
+    main{
         
         max-width: 1150px;
         margin: 0 auto;
         margin-top: 2em;
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        position: relative;
         gap: 1em;
         padding: 0 1em;
-      
+    
     } 
-    
-    
 
+    figure{
+        width: 350px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    main h1 {
+        grid-column: 1 / -1;
+    }
+
+
+    
     header{
         display: flex;
         justify-content: space-evenly; 
@@ -27,18 +40,7 @@
 
     }
         
-    .image-class figure{
-        max-width: 1150px;
-        margin: 0 auto;
-        gap: 1em;
-    }
     
-    .image-class{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
-        gap: 1em;
-        padding: 0 1em;
-    }
 
     #menu.show::before{
     display: none;

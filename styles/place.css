@@ -67,7 +67,7 @@ ul li{
 }
 
 ul li span{
-    grid-template-columns: 2/3;
+    grid-column: 1/2;
     font-weight: bold;
     
     

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Country Page</title>
+        <meta name="description" content="Martha Itohan Otasowie | WDD131 - Dynamic Web Fundamentals | Country Page ">
+        <meta name="author" content="Martha Itohan Otasowie">
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/place-large.css">
+        
+        <script src="scripts/place.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="body-container">
+            <header>
+                <h1>West Virginia, USA</h1>
+            </header>
+            <main>
+                <div class="main-section">
+                    <picture>
+                        
+                        <source srcset="images/iceland.webp" media="(min-width: 641px)">
+                        <img src="images/iceland-large.webp" alt="picture of iceland in Virginia" class="heroimage" >
+                    </picture>
+
+                
+                
+                    <div class="data">
+                        <h2>Data</h2>
+                        <ul>
+                            <li><span>Capital:</span> Charleston</li>
+                            <li><span>Population:</span> 1.79 million (2020)</li>
+                            <li><span>Area:</span> 24,230 sq mi (62,755 km²)</li>
+                            <li><span>Nickname:</span> The Mountain State</li>
+                            <li><span>Time Zone:</span> Eastern Standard Time (EST)</li>
+                            <li><span>Currency:</span> US Dollar (USD)</li>
+                        </ul>
+                    </div>
+
+                    <div class="weather">
+                        <h2 class="icon">Weather</h2>
+                        <img src="images/1530371_weather_clouds_snow_winter_icon.svg" alt="graphic image of weather">
+
+                        <ul>
+                            <li><span>Temperature:</span>  10°C</li>
+                            <li><span>Condition:</span> Partly Cloudy</li>
+                            <li><span>Wind:</span> 8 km/h</li>
+                            <li class="windchill-calc"></li>
+                        </ul>
+                    </div>
+            
+                </div>
+            </main>
+
+            <footer>
+                
+                <p><span id="currentyear"></span></p>
+
+                <p id="lastModified"></p>
+        
+
+            </footer>
+        </div>
+    </body>
+
+    </html>

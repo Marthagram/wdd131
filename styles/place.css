@@ -1,0 +1,111 @@
+:root{
+    --primary-color:#d7e0e2;
+    --secondary-color:hsla(244, 94%, 43%, 0.871);
+    --accent-color:red;
+    --heading-font: "Roboto", "Josefin Sans";
+    --body-font: "Amaranth", sans-serif;
+    --border: 1px solid var(--secondary-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header, .main-section, footer{
+    max-width: 640px;
+    margin: 0 auto;
+    padding: .8em;
+    
+
+    
+}
+
+
+header{
+    margin-top: 2em;
+    background-color: var(--accent-color);
+    border-bottom:var(--border) ;
+    
+}
+
+.main-section{
+    background-color: var(--primary-color);
+}
+
+h1{ 
+   
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    margin: 1em 0 0 0;
+    
+}
+
+h2{
+    font-size: 1.4em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+    text-align: center;
+       
+}
+
+ul li{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2em;
+    margin-left: 5rem;
+    
+    
+}
+
+ul li span{
+    grid-template-columns: 2/3;
+    font-weight: bold;
+    
+    
+    
+}
+.weather{
+    max-width: 640px;
+    height: auto;
+    text-align: center;
+}
+
+.weather img{
+    width: 20%;
+}
+
+ .heroimage{
+
+    width: 100%;
+    height: auto;
+    
+    
+    
+}
+ul{
+
+    list-style-type: none;
+    font-family: var(--body-font);
+    text-align: left;
+}
+
+
+
+footer{
+    margin-top: 2em;
+    text-align:center;
+    font-family: var(--heading-font);
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+
+}
+

@@ -2,9 +2,11 @@
     --primary-color:#d7e0e2;
     --secondary-color:hsla(244, 94%, 43%, 0.871);
     --accent-color:red;
+    --accent-color2:rgb(206, 180, 66);
+    --accent-color3: black;
     --heading-font: "Roboto", "Josefin Sans";
     --body-font: "Amaranth", sans-serif;
-    --border: 1px solid var(--secondary-color);
+    --border: 9px solid var(--accent-color);
 }
 
 *{
@@ -18,17 +20,17 @@
 header, .main-section, footer{
     max-width: 640px;
     margin: 0 auto;
-    padding: .8em;
-    
-
     
 }
 
-
 header{
-    margin-top: 2em;
-    background-color: var(--accent-color);
+    height: 100px;
+    background-color: var(--accent-color2);
     border-bottom:var(--border) ;
+    display: flex;
+    justify-content: center;
+    
+    
     
 }
 
@@ -37,7 +39,8 @@ header{
 }
 
 h1{ 
-   
+    height: 40px;
+    padding: .1em .4em;
     font-family: var(--heading-font);
     color: var(--secondary-color);
     background-color: var(--primary-color);
@@ -51,7 +54,7 @@ h2{
     margin-top: 1.5em;
     margin-bottom: 1em;
     font-family: var(--heading-font);
-    color: var(--accent-color);
+    color: var(--secondary-color);
     text-align: center;
        
 }
@@ -101,11 +104,12 @@ ul{
 
 
 footer{
-    margin-top: 2em;
+    margin-top: .2em;
     text-align:center;
     font-family: var(--heading-font);
-    background-color: var(--secondary-color);
-    color:var(--primary-color);
+    background-color: var(--primary-color);
+    border-top: var(--border);
+    color:var(--accent-color3);
 
 }
 

@@ -73,30 +73,52 @@ const temples = [
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-  // Add more temple objects here...
 
  {
     templeName: "Atlanta Georgia Temple",
     location: "Atlanta, Georgia, United States",
     dedicated: "1983, June, 4",
     area: 34500,
-    imageUrl:
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fphotogent.com%2Fatlanta-georgia-temple%2Fwiki%2F&psig=AOvVaw0lkhIAHqSpCHUFwBGjp0zH&ust=1763851972006000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKic0_GqhJEDFQAAAAAdAAAAABAE"
+    imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/atlanta-georgia-temple/atlanta-georgia-temple-3861.jpg"
   },
+
+  {
+  templeName: "Johannesburg South Africa Temple",
+  location: "Johannesburg, South Africa",
+  dedicated: "1985, August, 5",
+  area: 19814,
+  imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/johannesburg-south-africa-temple/johannesburg-south-africa-temple-43596.jpg"
+  },
+
+  {
+  templeName: "Jordan River Utah Temple",
+  location: "Utah, United States",
+  dedicated: "1981, May, 20",
+  area: 148236,
+  imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/jordan-river-utah-temple/jordan-river-utah-temple-61349.jpg"
+  },
+
+  {
+  templeName: "Manila Philippines Temple",
+  location: "Manila, Philippines",
+  dedicated: "1984, September, 27",
+  area: 26683,
+  imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/manila-philippines-temple/manila-philippines-temple-44346.jpg"
+  },
+
+  {
+  templeName: "Gilbert Arizona Temple",
+  location: "Gilbert, Arizona, United States",
+  dedicated: "2014, March, 2",
+  area: 85326,
+  imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/gilbert-arizona-temple/gilbert-arizona-temple-64742.jpg"
+  },
+
+
 ];
 
 
-  temples.forEach(temple => {
-      const templeDiv = document.createElement('div');
-      templeDiv.className = 'temple-gallery';
-      templeDiv.innerHTML = `
-      <h2>${temple.templeName}</h2>
-      <p>Location: ${temple.location}</p>
-      <p>Dedicated: ${temple.dedicated}</p>
-      <p>Area: ${temple.area} sq ft</p>
-      <img src="${temple.imageUrl}" alt="${temple.templeName}">`;
-  document.querySelector("main").appendChild(templeDiv);
-  });
+  
 
 // Responding to the main navigation menu items by filtering and displaying the temples in categories.
 
@@ -104,8 +126,10 @@ const temples = [
 
 function displayTemples(temples) {
   const main = document.querySelector("main");
-  
   main.innerHTML = "";
+  const h1 = document.createElement("h1");
+  h1.textContent = "The House of the Lord";
+  main.appendChild(h1);
   temples.forEach((temple) => {
     
     const templeDiv = document.createElement("div");
@@ -115,7 +139,7 @@ function displayTemples(temples) {
       <p>Location: ${temple.location}</p>
       <p>Dedicated: ${temple.dedicated}</p>
       <p>Area: ${temple.area} sq ft</p>
-      <img src="${temple.imageUrl}" alt="${temple.templeName}" loading="lazy">
+      <img src="${temple.imageUrl}" alt="${temple.templeName}" loading="lazy" width="400" height="250">
     `;
     main.appendChild(templeDiv);
   });

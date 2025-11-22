@@ -1,8 +1,8 @@
 @media screen and (min-width: 641px) {
-    header, footer{
+    body header, body footer{
         max-width: 1200px;
         margin: 0 auto;
-        padding: .8em .8em .8em .8em;
+        
         background-color: var(--secondary-color);
     }
     

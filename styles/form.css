@@ -1,0 +1,146 @@
+:root{
+    --primary-color:#b3c1c5;
+    --secondary-color:#44bba1;
+    --heading-font: "Roboto", "Josefin Sans";
+    --body-font: "Amaranth", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header, main, footer{
+	max-width: 640px;
+	margin: 0 auto;
+	
+}
+
+header h1{
+	text-align: center;
+	padding: 1em;
+	background-color: rgb(230, 176, 230);
+}
+
+/* all fields */
+.web-form label{
+    display: block;
+	color:red;
+	font-size: 1.2rem;
+	padding-top: 1em;
+	margin-left: 1em;
+
+}
+
+
+
+.web-form select,
+.web-form input[type="date"],
+.web-form textarea,
+.web-form input[type="text"],
+.web-form input[type="submit"] {
+	display: block;
+	width: 100%;
+	max-width: 450px;
+	height: 44px;
+	border-radius: 6px;
+	
+}
+
+.web-form input[type="checkbox"]{
+	margin-right: 6px;
+	
+}
+.checkbox{
+	padding-top:4em;
+	padding-bottom: 1em;
+	font-size: 1.2em;
+	color: #2e0e6f;
+}
+
+
+.web-form div{
+	color: #2e0e6f;
+	margin-left: 1em;
+
+}
+
+.web-form .write,
+.web-form .textarea,
+input[type="submit"]
+{
+	margin-top: 2em;
+	margin-left: 0em;
+}
+.web-form textarea{
+	height: 88px
+}
+
+input[type="submit"]{
+	margin-left: 1.2em;
+	border: none;
+    background-image: linear-gradient(#9c2c13, #6f200e);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+	font-size: 1.2rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 2rem 2% 2rem 3%;
+    box-shadow: 1px 1px 4px #999;
+
+}
+
+
+
+
+
+
+
+
+
+/* stars */
+
+.stars {
+	padding-top: 4em;
+	padding-bottom:2em ;
+}
+
+
+
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+
+.stars > label {
+	color:red;
+	width: 30px;
+	height: 30px;
+	font-size: 2rem;
+	padding: 0;
+	display: inline-block;
+	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars > label:hover {
+	color: #000;
+}
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
+footer{
+	text-align: center;
+	padding: 1em;
+	background-color: rgb(230, 176, 230);
+}

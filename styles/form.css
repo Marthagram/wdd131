@@ -1,6 +1,5 @@
 :root{
     --primary-color:#b3c1c5;
-    --secondary-color:#44bba1;
     --heading-font: "Roboto", "Josefin Sans";
     --body-font: "Amaranth", sans-serif;
 }
@@ -15,10 +14,17 @@
 header, main, footer{
 	max-width: 640px;
 	margin: 0 auto;
+	border-radius: .3em;
 	
+}
+main{
+	margin-top: 2em;
+	font-family: var(--body-font);
+	background-color: var(--primary-color);
 }
 
 header h1{
+	font-family: var(--heading-font);
 	text-align: center;
 	padding: 1em;
 	background-color: rgb(230, 176, 230);
@@ -27,7 +33,6 @@ header h1{
 /* all fields */
 .web-form label{
     display: block;
-	color:red;
 	font-size: 1.2rem;
 	padding-top: 1em;
 	margin-left: 1em;
@@ -66,6 +71,10 @@ header h1{
 
 }
 
+.web-form .write{
+	color: #2e0e6f;
+}
+
 .web-form .write,
 .web-form .textarea,
 input[type="submit"]
@@ -75,6 +84,7 @@ input[type="submit"]
 }
 .web-form textarea{
 	height: 88px
+
 }
 
 input[type="submit"]{
@@ -89,6 +99,19 @@ input[type="submit"]{
     margin: 2rem 2% 2rem 4em;
     box-shadow: 1px 1px 4px #999;
 
+}
+
+
+/* confirmation page */
+.review-main{
+	height: 160px;
+	text-align: left;
+	padding: .8rem;
+}
+
+.check-note{
+	color: red;
+	padding-left: 1em;
 }
 
 
@@ -132,6 +155,8 @@ input[type="radio"] {
 }
 
 footer{
+	margin-top: 2em;
+	font-family: var(--heading-font);
 	text-align: center;
 	padding: 1em;
 	background-color: rgb(230, 176, 230);

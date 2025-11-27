@@ -2,6 +2,7 @@
 
     header, main, footer{
         max-width: 1000px;
+        margin-top: 2em;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -31,9 +32,15 @@
     width: 90%;
 	max-width: 300px;
 	font-size: 1.2rem;
-    margin: 2rem 0 2rem 12em;
+    margin: 2rem 0 2rem 55%;
     box-shadow: 1px 1px 4px #999;
 
+}
+    .review-main{
+	height: 160px;
+	text-align: center;
+	padding: .8rem;
+    font-size: 1.2em;
 }
 
 	

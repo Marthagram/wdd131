@@ -1,0 +1,56 @@
+:root{
+    --primary-color:hsl(49, 86%, 51%);
+    --secondary-color:hsla(112, 94%, 43%, 0.871);
+    --heading-font: "Roboto", "Josefin Sans";
+    --body-font: "Amaranth", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--primary-color);
+    height: 150px;
+    padding: 5px;
+    
+    line-height: 2.5em;
+    text-align: center;
+}
+main{
+    color: var(--secondary-color);
+}
+
+section{
+    border: 1px solid black;
+    padding: 30px;
+    line-height: 1.9em;
+    margin: 2em;
+    background-color: var(--secondary-color);
+    color: black;
+    font-size: 1.12rem;
+
+}
+h3{
+    display: inline-block;
+    padding: 9px;
+    background-color: white;
+}
+
+header a{
+    color: black;
+    font-size: 1.2em;
+    display: block;
+}
+
+header a:hover{
+    color: rgb(255, 255, 255);
+}
+

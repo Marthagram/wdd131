@@ -18,7 +18,7 @@ header, main{
 
 header{
     background-color: var(--primary-color);
-    height: 150px;
+    height: auto;
     padding: 5px;
     
     line-height: 2.5em;

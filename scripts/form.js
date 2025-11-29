@@ -48,30 +48,10 @@ products.forEach((product) => {
                     <option value="${product.id}">${product.name}</option>`
 });
 
-// adding an event listener method to the select element can also work:
 
-// select.addEventListener(click, ()=>{  })   
 
-const visitDisplay = document.querySelector("#visit-count");
 
-let numVisits = Number(window.localStorage.getItem("visit-count"));
 
-if (numVisits === null) {
-  visitDisplay.textContent = `This is your first visit!`;
-  numVisits = 0;
-} else {
-  visitDisplay.textContent = `You have visited this page ${numVisits} times.`;
-  numVisits = Number(numVisits);
-}
-numVisits++;
-window.localStorage.setItem("visit-count", numVisits);
 
-document.querySelector(".web-form").addEventListener('submit', (e) => {
-  e.preventDefault();
-  // you can add any necessary validation or processing here
-  // ...
-  // then submit the form
 
-  window.location.href = "review.html";
 
-});

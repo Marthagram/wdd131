@@ -1,0 +1,102 @@
+@media screen and (min-width: 641px) {
+
+    header, main, footer{
+        max-width: 1200px;
+        margin: 0 auto;
+}
+
+#menu, #menu::before, #menu.show::before{
+    display: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+
+};
+nav li{
+     
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1em 0;
+}
+nav a{
+    color: black;
+}
+
+.main-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+
+
+}
+
+section{
+    font-size: 1.2em;
+    position: absolute;
+    top: 63em;
+    justify-self: center;
+    opacity: 7em;
+}
+
+
+
+   aside{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius:2em ;
+    padding: 2em;
+    width: 100%;
+    max-width: 960px;
+    background-color: rgba(196, 152, 113, 0.744);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   }
+
+   aside img{
+    width: 80%;
+    max-width: 400px;
+    height: 200px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-right: 0;
+   }
+   aside .call-to-action{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 0;
+
+   }
+
+   /* meeting-places styles */
+    .main-meeting{
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 2em;
+     width: 100%;
+     max-width: 1100px;
+     margin: 3em auto;
+    }
+    .main-meeting p{
+        font-size: 1.5em;
+        width: 80%;
+        margin: 1em auto;
+        
+    }
+    div{
+        width: 80%;
+        justify-self: end;
+    }
+
+    form{
+        justify-self: center;
+    }
+    
+   
+
+}

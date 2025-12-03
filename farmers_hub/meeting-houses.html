@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Farmers Hub in Niger State, Nigeria</title>
+        <meta name="description" content="Martha Itohan Otasowie | WDD131 - Dynamic Web Fundamentals | Farmers Hub in Niger State, Nigeria, meeting Houses page">
+        <meta name="author" content="Martha Itohan Otasowie">
+
+        <link rel="stylesheet" href="styles/farmers.css">
+        <link rel="stylesheet" href="styles/farmers-large.css">
+        
+        <script src="scripts/meeting-houses.js" defer></script>
+        
+    </head>
+    <body>
+        <header>
+            <div class="heading">
+                <h2>Niger state</h2>
+                <h1>Farmers' Hub</h1>
+                <h3><i>bridging the gap in farming</i></h3>
+            </div>
+
+            <a id="menu" href="#"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meeting-houses.html">Meeting House</a></li>
+                    <li><a href="apply.html">Apply</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-meeting">
+           
+            <h2 class="date"></h2>
+            
+            <p>Goodnews!, few more weeks for government general-approved
+                and agricultural implement giving-day.
+                As a registered member of Farmers' Hub, you are entitled to
+                attend any of the meeting houses within Niger state to receive
+                your own agricultural implements and government palliatives.
+
+                Note: Kindly bring along your registration slip to be able to
+                receive your own agricultural implements and government palliatives.
+               
+            </p>
+            <div>
+                    <p> Can you guess how many weeks are left?
+                        hint: it's less than 10 weeks!
+                        Prizes awaits those who guess correctly!
+                    </p>
+                <form>
+                    <label for="weeks">Enter your guess (number of weeks): <input type="number" id="weeks" name="weeks" min="1" max="9" required></label>
+                    
+                    <button type="button">Submit Guess</button>
+                    <p id="result"></p>
+                </form>
+
+            </div>
+
+             <p>
+                The table below contains the registered meeting houses of Farmers' Hub.
+                As a registered member, kindly look for the closest to you to attend on
+                scheduled days. 
+
+            </p>
+            <table>
+                <caption>Niger state Farmers' Hub Meetings </caption>
+               <thead>
+                <tr>
+                    <th colspan="3">Existing Gathering Places</th>
+                </tr>
+                    <tr>
+                        <th scope="col">Gathering place</th>
+                        <th scope="col">Meeting Day</th>
+                        <th scope="col">Time</th>
+                    </tr>
+                </thead>
+
+            </table>
+            
+
+        </main>
+
+        <footer>
+                <p><span id="currentyear"></span></p>
+
+                <p id="lastModified"></p>
+
+            <!-- socialmedia icons -->
+
+        </footer>
+    </body>
+</html>

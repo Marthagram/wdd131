@@ -2,7 +2,6 @@ const today = new Date();
 const date = document.querySelector(".date");
 date.innerHTML = `Today's date is ${document.lastModified}`;
 
-const countdown = document.querySelector("#countdown");
 const navigation = document.querySelector("ul");
 const menuButton = document.querySelector("#menu");
 

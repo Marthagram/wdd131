@@ -117,7 +117,7 @@
     .main-apply{
         display: grid;
         grid-template-columns: 1fr 1fr;   
-        gap: 9px;
+        gap: .5em;
         
     }
 
@@ -125,13 +125,20 @@
         text-align: left;
         background-color: #eee;
         border: 4px solid #ccc;
+        font-size: 1rem;
+        height: auto;
+        max-width: 500px;
+        width: 100%;
         
         
     }
 
     .apply-form{
+        font-size: 1rem;
         margin-top: 2em;
-        max-height: 550px ;
+        max-width: 500px;
+        width: 100%;
+        max-height: 600px; 
     }
     .apply-form h4{
         text-align: center;

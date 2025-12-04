@@ -18,8 +18,9 @@ header, main, footer{
 	
 }
 main{
-	margin-top: 2em;
-	padding:0 2em 2em 0;
+	padding-bottom: 5px;
+	margin-top: 5px;
+
 	font-family: var(--body-font);
 	background-color: rgb(211, 204, 174);
 	
@@ -78,8 +79,7 @@ header h1{
 }
 
 .web-form .write,
-.web-form .textarea,
-input[type="submit"]
+.web-form .textarea
 {
 	margin-top: 2em;
 	margin-left: 0;
@@ -100,6 +100,7 @@ input[type="submit"]{
     max-width: 350px;
 	display: grid;
     justify-self: center;
+	margin: 2em 0;
     box-shadow: 1px 1px 4px #999;
 
 }

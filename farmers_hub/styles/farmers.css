@@ -86,6 +86,11 @@ li a:active {
 	background-color: var(--primary-color);
     
 }
+/* .logo{
+    max-width: 200px;
+    height: 100px;
+    margin-right: 1em;
+} */
 
 
 /* Home styles */

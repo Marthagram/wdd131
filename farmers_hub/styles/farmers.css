@@ -93,6 +93,7 @@ li a:active {
 .main-div{
     
     background-color:  rgba(196, 152, 113, 0.744) ;
+    padding-bottom: 2rem;
 }
 .heroimage{
 
@@ -106,7 +107,6 @@ li a:active {
 
 section{
     
-    grid-row: 1/2;
     border-top-left-radius: 2em;
     border-bottom-right-radius: 2em;
     margin: 3em auto;
@@ -116,6 +116,7 @@ section{
     line-height: 2em;
     width: 80%;
     font-family: var(--body-font);
+    box-shadow: 0 0 10px hsl(0 0% 50%);
     
 }
 section h2{
@@ -126,6 +127,11 @@ section h2{
 .visit{
     font-size: 1.2em;
     text-align: center;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    line-height: 2.4rem;
+    padding: 2em;
+    box-shadow: 0 0 10px hsl(0 0% 50%);
 }
 
 aside{
@@ -136,12 +142,20 @@ aside{
     margin: 0 auto;
     
 }
+
 aside img{
     justify-self: center;
-    width: 80%;
-    max-width: 200px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 2em;
     margin-top: 2em;
+    box-shadow: 0 0 10px hsl(0 0% 50%);
+    
+}
+
+#visit-count{
+    background-color:var(--secondary-color) ;
+    padding: .5rem;
     
 }
 
@@ -152,24 +166,30 @@ aside .call-to-action{
     background-color: var(--secondary-color);
     font-size: 1.4em;
     line-height: 1.5em;
+    text-align: center;
     border-top-left-radius: 1em;
     border-bottom-right-radius: 1em;
     width: 100%;
     max-width: 350px;
     justify-self: center;
+    box-shadow: 0 0 10px hsl(0 0% 50%);
 
 }
-.call-to-action button{
+.call-to-action button a{
     margin-top: 1em;
     background-color: var(--primary-color);
-    padding: 1em;
+    padding: .5em 2em;
     font-size: .8em;
     border-radius: 1em;
+    text-decoration: none;
+
     
     
 }
-.call-to-action button:hover{
+.call-to-action button a:hover{
     color: red;
+    text-decoration: underline;
+    
 }
 footer {
     max-width:640px; 
@@ -198,6 +218,8 @@ footer {
     margin: 1em;
     font-size: 1.3em;
     line-height: 1.4em;
+    box-shadow: 0 0 10px hsl(0 0% 50%);
+    
 
 }
 
@@ -209,6 +231,12 @@ button{
     margin-top: 1em;
 }
 
+button:hover{
+    color: #eee;
+    box-shadow: 1px 1px 4px #999;
+
+}
+
 .main-meeting div {
     background-color: rgba(196, 152, 113, 0.744);
     padding: 1em;
@@ -216,6 +244,7 @@ button{
     border-bottom-right-radius: 1em;
     margin: 1em;
     font-size: 1.1em;
+    box-shadow: 0 0 10px hsl(0 0% 50%);
 
 }
 
@@ -265,7 +294,7 @@ th, td{
 
 .main-apply p{
     line-height: 1.4em;
-    background-color: var(--secondary-color);
+    background-color: #eee;
     border-top-left-radius: 1em;
     border-bottom-right-radius:1em ;
     padding: 1em;
@@ -282,7 +311,7 @@ th, td{
 
 .apply-form{
     font-family: var(--body-font) ;
-
+    display: grid;
     margin-top: 2em;
     background-color: var(--primary-color);
     padding: 1em;
@@ -300,16 +329,15 @@ th, td{
     padding: .75rem;
     width: 100%;
     max-width: 400px;
-    /* appearance: none; this over writes the default browser styling */
-    appearance: none;
+    
 }
 
 .apply-form label{
     display: block;
     padding: 1rem;
-    background-color: var(--secondary-color);
-    border-radius:.5em;
-    border: var(--border);
+    border-radius:.3em;
+    border-bottom: var(--border);
+    margin-top: 1em;
     
     
 }
@@ -322,7 +350,8 @@ th, td{
     padding: .8rem;
     width: 96%;
     max-width: 400px;
-    margin: 1.5rem 2% 2rem 2%;
+    justify-self: center;
+    margin-top: 1em;
   
 
 

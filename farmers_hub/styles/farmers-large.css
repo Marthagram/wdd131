@@ -41,24 +41,51 @@
         padding: .5em;
     }
 
+    footer {
+    
+    height: 70px;
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+    /* home page */
+
     .main-div{
         display: grid;
-        position: relative; 
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr ;
+       
     }
 
+    picture{
+        max-width: 1200px;
+        width: 100%;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
     
 
     section{
+        grid-column: 1/2;
+        grid-row:1/2 ;
+        max-width:700px ;
+        width: 80%;
         font-size: 1.2em;
-        position: absolute;
-        align-self: end;
-        justify-self: center;
+        margin-top: 15em;
         opacity: 80%;
+
+    }
+
+    .main-div > p{
+        font-size: 1.5em;
     }
 
 
 
    aside{
+   
     margin-top: 2em;
     margin-bottom: 2em;
     border-top-right-radius: 2em;
@@ -66,25 +93,29 @@
     padding: 2em;
     width: 100%;
     max-width: 960px;
-    background-color: rgba(196, 152, 113, 0.744);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+
    }
 
    aside img{
-    width: 80%;
-    max-width: 400px;
-    height: 200px;
-    grid-column: 1/3;
-    grid-row: 1/2;
+    width: 100%;
+    max-width: 1200px;
     margin-right: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
    }
-   aside .call-to-action{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    margin-top: 0;
 
+   aside .call-to-action{
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 14em;
+    max-width: 400px;
+    max-height: 200px;
+    width: 50%;
    }
 
    /* meeting-places styles */
@@ -104,7 +135,8 @@
     }
     div{
         width: 80%;
-        justify-self: end;
+        justify-self: center;
+        justify-self: center;
     }
 
     form{

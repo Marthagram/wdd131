@@ -27,7 +27,7 @@
         box-shadow: 1px 1px 4px #999;
     }
 
-    .show li{
+    nav li{
         display: block;
         text-decoration: none;
         background-color: var(--secondary-color);

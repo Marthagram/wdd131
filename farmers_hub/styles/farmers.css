@@ -261,6 +261,15 @@ footer {
     
 
 }
+.guess-form label, .guess-form [type=number]{
+    display: block;
+}
+.guess-form [type=number]{
+    padding: .75rem;
+    width: 100%;
+    max-width: 200px;
+    
+}    
 
 #meetingbutton{
     background-color: var(--primary-color);

@@ -23,23 +23,26 @@ header{
     line-height: 2.6em;
     background-color: var(--secondary-color);
     display: flex;
-    justify-content: space-between;
-    padding:25px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
     font-family: var(--heading-font);
     white-space: nowrap;
+    font-size: .8em;
+    
 }
-header h1{
+.heading h1{
     
     border-bottom: var(--border);
     background-color: var(--primary-color) ;
 
 }
-header h2{
+.heading h2{
     border-top: var(--border);
 }
 
 #menu{
-    margin-left:45px;
+    margin-left: 1em ;
     margin-top: 1em ;
     font-size: 1.5em;
     text-decoration: none;
@@ -86,11 +89,13 @@ li a:active {
 	background-color: var(--primary-color);
     
 }
-/* .logo{
-    max-width: 200px;
-    height: 100px;
+.logo{
+    object-fit: contain;
+    width: 10em ;
+    max-width:15em ;
+    height: auto;
     margin-right: 1em;
-} */
+}
 
 
 /* Home styles */
@@ -216,7 +221,8 @@ footer {
 }
 
 .main-meeting p{
-    background-color: var(--primary-color);
+    background-color: #eee;
+    color: rgb(28, 125, 28);
     padding: 1em;
     border-top-left-radius: 1em;
     border-bottom-right-radius: 1em;
@@ -304,6 +310,7 @@ th, td{
     border-bottom-right-radius:1em ;
     padding: 1em;
     font-family: var(--body-font);
+    box-shadow: 0 0 10px hsl(0 0% 50%);
 }
 
 .main-apply span{
@@ -321,7 +328,7 @@ th, td{
     background-color: var(--primary-color);
     padding: 1em;
     border-radius: .5em;
-    box-shadow: 1px 1px 4px #999;
+    box-shadow: 0 0 10px hsl(0 0% 50%);
 }
 .apply-form input[type="text"],
 .apply-form input[type="tel"],

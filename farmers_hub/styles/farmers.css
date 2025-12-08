@@ -114,7 +114,7 @@ nav a{
 }
 li a:hover,
 li a:active {
-	
+
 	background-color: var(--primary-color);
     color: black;
     padding: .5em 0;
@@ -241,7 +241,7 @@ footer {
     margin-top: 2em;
     padding: .5em 1em 3em 1em;
     background-color: var(--secondary-color);
-    
+    min-width: 500px;
     font-size: 1.2em;
     font-family: var(--heading-font);
     margin-bottom: 2em;

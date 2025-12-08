@@ -26,11 +26,11 @@
         flex-direction: row;
         box-shadow: 1px 1px 4px #999;
     }
+   
 
     nav li{
         display: block;
         text-decoration: none;
-        background-color: var(--secondary-color);
         padding: 25px 0;
 
     }
@@ -50,7 +50,7 @@
         color: black;
         background-color: var(--primary-color);
         margin-right: .6em;
-        padding: 1em 2em;
+        padding: .4em 2em;
     }
     
 

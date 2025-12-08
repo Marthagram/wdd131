@@ -38,7 +38,7 @@
         color: black;
         background-color: var(--primary-color);
         margin-right: .6em;
-        padding: .5em;
+        padding: 1em;
     }
 
     footer {
@@ -49,6 +49,7 @@
     padding: 1em;
     background-color: var(--secondary-color);
     font-family: var(--heading-font);
+    margin-bottom: 1em;
 }
     /* home page */
 

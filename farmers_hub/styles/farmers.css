@@ -21,26 +21,31 @@ header, main, footer{
 }
 
 header{
-    line-height: 2.6em;
+   
     background-color: var(--secondary-color);
     display: grid;
     grid-template-columns: auto 1fr ;
     padding: 3em;
     font-family: var(--heading-font);
-    white-space: nowrap;
+    white-space: wrap;
     font-size: .8em;
     
     
 }
-.heading{
-    width: 100%;
+header{
+    min-width: 500px;
+    
+
 }
 
+
 .heading h1{
+    font-size: 2em;
     color: black;
     border-top: var(--border);
 }
 .heading h2{
+    font-size: 1.6em;
     background-color: var(--primary-color) ;
     border-bottom: var(--border);
 }
@@ -49,7 +54,8 @@ header{
 }
 
 #menu{
-    
+    border: 1px solid black;
+    text-align: center;
     margin-left: 1em ;
     margin-top: 1em ;
     font-size: 2em;
@@ -88,6 +94,7 @@ nav ul{
     text-decoration: none;
     background-color:  rgb(28, 125, 28);
     padding: 1em 1em;
+    margin-top: 1.6em;
     
     
     
@@ -98,7 +105,6 @@ nav li{
 }
 
 nav a{
-    
     color: #eee;
     font-family: var(--heading-font);
     font-size: 1.2em;
@@ -111,7 +117,7 @@ li a:active {
 	
 	background-color: var(--primary-color);
     color: black;
-    padding: 1em 0;
+    padding: .5em 0;
     
 }
 .logo{
@@ -233,12 +239,12 @@ footer {
     height: 70px;
     text-align: center;
     margin-top: 2em;
-    padding: 1em;
+    padding: .5em 1em 3em 1em;
     background-color: var(--secondary-color);
     
     font-size: 1.2em;
     font-family: var(--heading-font);
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 
@@ -268,7 +274,7 @@ footer {
     padding: .75rem;
     width: 100%;
     max-width: 200px;
-    
+
 }    
 
 #meetingbutton{
